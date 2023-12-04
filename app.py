@@ -12,10 +12,6 @@ from streamlit_tags import st_tags
 from PIL import Image
 import base64, time, datetime
 
-nltk.download('stopwords')
-spacy.cli.download("en_core_web_sm")
-spacy.load('en_core_web_sm')
-
 
 def pdf_reader(file):
     resource_manager = PDFResourceManager()
