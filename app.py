@@ -1,6 +1,5 @@
 import streamlit as st
-import nltk
-import spacy
+
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
